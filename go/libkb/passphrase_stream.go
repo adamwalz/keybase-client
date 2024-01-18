@@ -18,6 +18,7 @@ func NewSecureTriplesec(passphrase []byte, salt []byte) (Triplesec, error) {
 }
 
 func StretchPassphrase(g *GlobalContext, passphrase string, salt []byte) (tsec Triplesec, pps *PassphraseStream, err error) {
+	return nil, nil, fmt.Errorf("no salt provided to StretchPassphrase")
 	g.Log.Debug("############# Stretching Passphrase ####################")
 	if salt == nil {
 		err = fmt.Errorf("no salt provided to StretchPassphrase")
