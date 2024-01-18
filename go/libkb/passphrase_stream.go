@@ -4,11 +4,13 @@
 package libkb
 
 import (
+	"encoding/hex"
 	"fmt"
 	"runtime/debug"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
 	triplesec "github.com/keybase/go-triplesec"
+
+	keybase1 "github.com/keybase/client/go/protocol/keybase1"
 )
 
 func NewSecureTriplesec(passphrase []byte, salt []byte) (Triplesec, error) {
@@ -16,10 +18,12 @@ func NewSecureTriplesec(passphrase []byte, salt []byte) (Triplesec, error) {
 }
 
 func StretchPassphrase(g *GlobalContext, passphrase string, salt []byte) (tsec Triplesec, pps *PassphraseStream, err error) {
+	g.Log.Debug("############# Stretching Passphrase ####################")
 	if salt == nil {
 		err = fmt.Errorf("no salt provided to StretchPassphrase")
 		return nil, nil, err
 	}
+	var overhead []byte
 	var tmp []byte
 	var fn func(pw []byte, salt []byte) (Triplesec, error)
 
@@ -38,10 +42,13 @@ func StretchPassphrase(g *GlobalContext, passphrase string, salt []byte) (tsec T
 	if err != nil {
 		return nil, nil, err
 	}
-	_, tmp, err = tsec.DeriveKey(extraLen)
+	g.Log.Debug("ExtraLen %s", extraLen)
+	overhead, tmp, err = tsec.DeriveKey(extraLen)
 	if err != nil {
 		return nil, nil, err
 	}
+	g.Log.Debug("Overhead %s", hex.EncodeToString(overhead))
+	g.Log.Debug("tmp %s", hex.EncodeToString(overhead))
 	pps = NewPassphraseStream(tmp)
 	return tsec, pps, nil
 }
@@ -75,7 +82,6 @@ func NewPassphraseStream(s []byte) *PassphraseStream {
 // This is used to create a passphrase stream from the information in the
 // secret store, which only contains the lksec portion of the stream.
 func NewPassphraseStreamLKSecOnly(s *LKSec) (*PassphraseStream, error) {
-
 	clientHalf, err := s.ComputeClientHalf()
 	if err != nil {
 		return nil, err
@@ -93,8 +99,10 @@ func (ps *PassphraseStream) SetGeneration(gen PassphraseGeneration) {
 	ps.gen = gen
 }
 
-type passphraseStreamPWHash [pwhLen]byte
-type passphraseSteramEdDSASeed [eddsaLen]byte
+type (
+	passphraseStreamPWHash    [pwhLen]byte
+	passphraseSteramEdDSASeed [eddsaLen]byte
+)
 
 func newPassphraseStreamFromPwhAndEddsa(pwhash passphraseStreamPWHash, eddsa passphraseSteramEdDSASeed) *PassphraseStream {
 	stream := make([]byte, extraLen)

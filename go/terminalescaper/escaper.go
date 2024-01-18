@@ -6,7 +6,7 @@ import (
 )
 
 // Taken from unexported data at golang.org/x/crypto/ssh/terminal
-// and expanded with data at github.com/keybase/client/go/client:color.go
+// and expanded with data at github.com/adamwalz/keybase-client/go/client:color.go
 type EscapeCode []byte
 
 var keyEscape byte = 27

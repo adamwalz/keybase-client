@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/keybase/client/go/client"
+	"github.com/adamwalz/keybase-client/go/client"
 	"github.com/keybase/client/go/externals"
 	"github.com/keybase/client/go/install"
 	"github.com/keybase/client/go/libcmdline"

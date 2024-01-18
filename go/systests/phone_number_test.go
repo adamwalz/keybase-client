@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/keybase/client/go/client"
+	"github.com/adamwalz/keybase-client/go/client"
 	"github.com/keybase/client/go/emails"
 	"github.com/keybase/client/go/kbtest"
 	"github.com/keybase/client/go/libkb"

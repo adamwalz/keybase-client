@@ -14,7 +14,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/keybase/client/go/client"
+	"github.com/adamwalz/keybase-client/go/client"
 	"github.com/keybase/client/go/gregor"
 	"github.com/keybase/client/go/libkb"
 	"github.com/keybase/client/go/protocol/gregor1"

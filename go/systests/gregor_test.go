@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/client"
+	"github.com/adamwalz/keybase-client/go/client"
 	"github.com/keybase/client/go/gregor"
 	"github.com/keybase/client/go/libkb"
 	gregor1 "github.com/keybase/client/go/protocol/gregor1"

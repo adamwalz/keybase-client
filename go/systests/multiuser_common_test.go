@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	client "github.com/keybase/client/go/client"
+	client "github.com/adamwalz/keybase-client/go/client"
 	engine "github.com/keybase/client/go/engine"
 	libkb "github.com/keybase/client/go/libkb"
 	logger "github.com/keybase/client/go/logger"
