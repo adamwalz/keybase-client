@@ -7,7 +7,7 @@ package libkbfs
 import (
 	"sync"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"golang.org/x/net/context"
 )
 

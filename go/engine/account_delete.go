@@ -6,8 +6,8 @@
 package engine
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // AccountDelete is an engine.

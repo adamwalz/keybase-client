@@ -3,9 +3,9 @@ package ephemeral
 import (
 	"testing"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/kbtest"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/kbtest"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/stretchr/testify/require"
 )
 

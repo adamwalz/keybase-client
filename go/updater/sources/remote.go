@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // RemoteUpdateSource finds releases/updates from custom url feed (used primarily for testing)

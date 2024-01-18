@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-crypto/ed25519"
 	"golang.org/x/crypto/nacl/box"
 )

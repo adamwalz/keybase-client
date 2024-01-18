@@ -7,10 +7,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 )
 
 // Hidden Ratchet computation, parsing, and manipulation libraries.

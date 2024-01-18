@@ -8,7 +8,7 @@ package teams
 import (
 	"golang.org/x/net/context"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func (t *Team) ExportToTeamPlusApplicationKeys(ctx context.Context, idTime keybase1.Time,

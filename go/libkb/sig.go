@@ -11,8 +11,8 @@ import (
 
 	"strings"
 
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-crypto/openpgp"
 	"github.com/keybase/go-crypto/openpgp/armor"
 	jsonw "github.com/keybase/go-jsonw"

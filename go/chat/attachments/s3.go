@@ -10,10 +10,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/keybase/client/go/chat/attachments/progress"
-	"github.com/keybase/client/go/chat/s3"
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/chat/attachments/progress"
+	"github.com/adamwalz/keybase-client/go/chat/s3"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	"golang.org/x/sync/errgroup"
 )
 

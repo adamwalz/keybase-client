@@ -7,9 +7,9 @@ package libdokan
 import (
 	"errors"
 
-	"github.com/keybase/client/go/kbfs/dokan"
-	"github.com/keybase/client/go/kbfs/libcontext"
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan"
+	"github.com/adamwalz/keybase-client/go/kbfs/libcontext"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 	"golang.org/x/net/context"
 )
 

@@ -16,9 +16,9 @@ import (
 	"golang.org/x/crypto/scrypt"
 	"golang.org/x/net/context"
 
-	libkb "github.com/keybase/client/go/libkb"
-	msgpack "github.com/keybase/client/go/msgpack"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	msgpack "github.com/adamwalz/keybase-client/go/msgpack"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // This is expected seitan token length, the secret "Invite Key" that

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/keybase/client/go/kbfs/ioutil"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/ioutil"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"

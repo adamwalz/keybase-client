@@ -8,8 +8,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 )
 
 // GetEncodedUserEditHistory returns serialized JSON containing the

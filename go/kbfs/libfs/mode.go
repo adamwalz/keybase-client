@@ -8,11 +8,11 @@ import (
 	"context"
 	"os"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/kbfs/tlfhandle"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlfhandle"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // IsWriter returns whether or not the currently logged-in user is a

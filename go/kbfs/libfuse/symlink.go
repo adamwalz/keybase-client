@@ -13,10 +13,10 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"golang.org/x/net/context"
 )
 

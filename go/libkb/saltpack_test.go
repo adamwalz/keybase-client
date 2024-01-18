@@ -12,7 +12,7 @@ import (
 	saltpackBasic "github.com/keybase/saltpack/basic"
 	"github.com/stretchr/testify/require"
 
-	"github.com/keybase/client/go/saltpackkeystest"
+	"github.com/adamwalz/keybase-client/go/saltpackkeystest"
 )
 
 type outputBuffer struct {

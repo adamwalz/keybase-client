@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	triplesec "github.com/keybase/go-triplesec"
 	saltpack "github.com/keybase/saltpack"
 	basic "github.com/keybase/saltpack/basic"

@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/adamwalz/keybase-client/go/client"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/service"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/service"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"github.com/stretchr/testify/require"
 	context "golang.org/x/net/context"

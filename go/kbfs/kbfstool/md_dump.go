@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 	"golang.org/x/net/context"
 )
 

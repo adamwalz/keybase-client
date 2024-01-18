@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Pegboard keeps track of automatic private follows.

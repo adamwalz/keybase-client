@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/ioutil"
-	"github.com/keybase/client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/ioutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

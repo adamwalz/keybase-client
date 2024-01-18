@@ -8,9 +8,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/libkey"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkey"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 	"github.com/pkg/errors"
 )
 

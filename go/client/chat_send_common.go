@@ -9,10 +9,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type ChatSendArg struct {

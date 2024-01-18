@@ -3,14 +3,14 @@ package teams
 import (
 	"testing"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/teams/hidden"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/teams/hidden"
 
 	"github.com/keybase/clockwork"
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 	"github.com/stretchr/testify/require"
 )

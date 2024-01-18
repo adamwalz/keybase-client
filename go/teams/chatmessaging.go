@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func SendTeamChatWelcomeMessage(ctx context.Context, g *libkb.GlobalContext, teamID keybase1.TeamID, team,

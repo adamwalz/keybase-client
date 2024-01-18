@@ -7,9 +7,9 @@ package libkbfs
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/test/clocktest"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/test/clocktest"
 	"golang.org/x/net/context"
 )
 

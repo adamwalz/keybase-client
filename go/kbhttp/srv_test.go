@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/stretchr/testify/require"
 )
 

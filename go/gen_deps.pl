@@ -35,7 +35,7 @@ foreach my $os (@oses) {
         next;
     }
     $ENV{'GOOS'} = $os;
-    # create a pattern file that matches tracked go modules (excluding the main module github.com/keybase/client/go)
+    # create a pattern file that matches tracked go modules (excluding the main module github.com/adamwalz/keybase-client/go)
     # example pattern: ^github.com/keybase/go-framed-msgpack-rpc(/|$)
     chomp(my $gomodulepattern = `mktemp`);
     system "go list -f '{{if not .Main}}{{ .Path }}{{end}}' -m all | sed 's/^/\\\^/' | sed 's/\$/\\(\\/\\|\\\$\)/' | sort > '$gomodulepattern'";

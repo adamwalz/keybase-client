@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/keybase/client/go/blindtree"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/merkletree2"
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/blindtree"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/merkletree2"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 )
 
 func importChain(mctx libkb.MetaContext, raw []sig3.ExportJSON) (ret []sig3.Generic, err error) {

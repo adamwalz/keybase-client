@@ -4,7 +4,7 @@
 package engine
 
 import (
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // XXX: THIS ENGINE DELETES SECRET KEYS. Deleting the wrong secret keys can

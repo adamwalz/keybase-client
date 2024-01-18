@@ -1,8 +1,8 @@
 package pager
 
 import (
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"github.com/keybase/go-codec/codec"
 )
 

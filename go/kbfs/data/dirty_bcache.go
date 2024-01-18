@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/kbfsblock"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"golang.org/x/net/context"
 )
 

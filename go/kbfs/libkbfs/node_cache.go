@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
 )
 
 type nodeCacheEntry struct {

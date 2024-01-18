@@ -8,7 +8,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	context "golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"

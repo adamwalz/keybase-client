@@ -5,11 +5,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func getConvByID(ctx context.Context, g *globals.Context, uid gregor1.UID, convID chat1.ConversationID) (res types.RemoteConversation, err error) {

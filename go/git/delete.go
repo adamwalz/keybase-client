@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func DeleteMetadata(ctx context.Context, g *libkb.GlobalContext, folder keybase1.FolderHandle, repoName keybase1.GitRepoName) error {

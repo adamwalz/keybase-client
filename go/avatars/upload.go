@@ -11,8 +11,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func addFile(mpart *multipart.Writer, param, filename string) error {

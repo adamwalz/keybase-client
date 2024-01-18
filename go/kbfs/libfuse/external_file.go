@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/ioutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/ioutil"
 	"golang.org/x/net/context"
 )
 

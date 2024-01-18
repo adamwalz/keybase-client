@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 )

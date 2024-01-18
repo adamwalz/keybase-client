@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
 )
 
 const (

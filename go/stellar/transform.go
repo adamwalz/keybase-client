@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar/relays"
-	"github.com/keybase/client/go/stellar/remote"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar/relays"
+	"github.com/adamwalz/keybase-client/go/stellar/remote"
 	"github.com/keybase/stellarnet"
 )
 

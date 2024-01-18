@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/keybase/backoff"
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/libkey"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkey"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
@@ -1122,7 +1122,7 @@ func (md *MDServerRemote) CheckForRekeys(ctx context.Context) <-chan error {
 	// Wait 5 seconds before asking for rekeys, because the server
 	// could have an out-of-date cache if we ask too soon.  Why 5
 	// seconds you ask?  See `pollWait` in
-	// github.com/keybase/client/go/auth/user_keys_api.go.  We don't
+	// github.com/adamwalz/keybase-client/go/auth/user_keys_api.go.  We don't
 	// use that value directly since there's no guarantee the server
 	// is using the same value.  TODO: the server should tell us what
 	// value it is using.

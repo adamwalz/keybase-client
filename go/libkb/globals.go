@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	logger "github.com/keybase/client/go/logger"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	logger "github.com/adamwalz/keybase-client/go/logger"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	clockwork "github.com/keybase/clockwork"
 	context "golang.org/x/net/context"
 )

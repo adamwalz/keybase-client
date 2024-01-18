@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/libcontext"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/kbfs/libcontext"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbun"
 )
 
 func findGoExe() (string, error) {

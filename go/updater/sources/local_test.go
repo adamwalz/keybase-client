@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/keybase/client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater"
 	"github.com/keybase/go-logging"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

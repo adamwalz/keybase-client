@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/kbfs/tlfhandle"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlfhandle"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	"github.com/pkg/errors"
 )
 

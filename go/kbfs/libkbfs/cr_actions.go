@@ -7,8 +7,8 @@ package libkbfs
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

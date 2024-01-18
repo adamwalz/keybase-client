@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/keybase/client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
 )
 
 var txPattern = regexp.MustCompile(

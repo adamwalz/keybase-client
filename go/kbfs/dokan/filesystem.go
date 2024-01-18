@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
 )
 
 // Config is the configuration used for a mount.

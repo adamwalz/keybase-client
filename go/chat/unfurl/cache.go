@@ -5,7 +5,7 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"github.com/keybase/clockwork"
 )
 

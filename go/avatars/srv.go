@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/keybase/client/go/kbhttp/manager"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbhttp/manager"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 var avatarTransport = &http.Transport{

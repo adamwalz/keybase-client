@@ -2,8 +2,8 @@ package storage
 
 import (
 	"fmt"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type FTLStorageUpgrader func(mctx libkb.MetaContext, state *keybase1.FastTeamData) (changed bool, err error)

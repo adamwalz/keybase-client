@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/stretchr/testify/require"
 )
 

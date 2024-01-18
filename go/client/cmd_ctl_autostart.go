@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/install"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/install"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 type CmdCtlAutostart struct {

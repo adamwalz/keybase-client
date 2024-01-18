@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/kbtime"
+	"github.com/adamwalz/keybase-client/go/kbtime"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	jsonw "github.com/keybase/go-jsonw"
 )

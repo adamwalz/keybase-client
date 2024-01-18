@@ -8,10 +8,10 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 // searchSession encapsulates a single search session into a three stage

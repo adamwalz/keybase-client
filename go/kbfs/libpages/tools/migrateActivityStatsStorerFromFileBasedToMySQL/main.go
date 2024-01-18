@@ -4,7 +4,7 @@ import (
 	"os"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/keybase/client/go/kbfs/libpages"
+	"github.com/adamwalz/keybase-client/go/kbfs/libpages"
 	"go.uber.org/zap"
 )
 

@@ -5,10 +5,10 @@
 package libkbfs
 
 import (
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

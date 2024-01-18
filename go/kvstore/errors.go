@@ -1,6 +1,6 @@
 package kvstore
 
-import "github.com/keybase/client/go/libkb"
+import "github.com/adamwalz/keybase-client/go/libkb"
 
 type KVCacheError struct {
 	Message string

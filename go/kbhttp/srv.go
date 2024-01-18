@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 // ListenerSource represents where an HTTP server should listen.

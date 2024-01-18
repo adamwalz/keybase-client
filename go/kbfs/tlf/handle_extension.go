@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	kbname "github.com/keybase/client/go/kbun"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
 	"github.com/keybase/go-codec/codec"
 )
 

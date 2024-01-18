@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 func assetToImageDisplay(ctx context.Context, convID chat1.ConversationID, asset chat1.Asset,

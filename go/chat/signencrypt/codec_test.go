@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/crypto/nacl/secretbox"
 
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 	"github.com/keybase/go-crypto/ed25519"
 	"github.com/stretchr/testify/require"
 )

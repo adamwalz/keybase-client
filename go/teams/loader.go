@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	hidden "github.com/keybase/client/go/teams/hidden"
-	storage "github.com/keybase/client/go/teams/storage"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	hidden "github.com/adamwalz/keybase-client/go/teams/hidden"
+	storage "github.com/adamwalz/keybase-client/go/teams/storage"
 	pkgErrors "github.com/pkg/errors"
 )
 

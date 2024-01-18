@@ -7,7 +7,7 @@
 
 package libkbfs
 
-import "github.com/keybase/client/go/kbfs/kbfsblock"
+import "github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
 
 func verifyLocalBlockIDMaybe(data []byte, id kbfsblock.ID) error {
 	return kbfsblock.VerifyID(data, id)

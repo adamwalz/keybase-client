@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/kbfsblock"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"golang.org/x/net/context"

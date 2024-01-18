@@ -6,9 +6,9 @@ package engine
 import (
 	"sync"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"golang.org/x/crypto/nacl/box"
 	"golang.org/x/net/context"
 )

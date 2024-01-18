@@ -6,7 +6,7 @@ package engine
 import (
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // TestTrackerList2 creates a new fake user and has that user track

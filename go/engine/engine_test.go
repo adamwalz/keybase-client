@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 func fakeUser(tb libkb.TestingTB, prefix string) (username, email string) {

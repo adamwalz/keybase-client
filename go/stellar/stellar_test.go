@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/keybase/stellarnet"
 	"github.com/stretchr/testify/require"
 )

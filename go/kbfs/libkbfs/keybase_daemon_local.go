@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/ldbutils"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/ldbutils"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

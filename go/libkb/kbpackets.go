@@ -6,7 +6,7 @@ package libkb
 import (
 	"encoding/base64"
 
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 )
 
 func DecodeSKBPacket(data []byte) (*SKB, error) {

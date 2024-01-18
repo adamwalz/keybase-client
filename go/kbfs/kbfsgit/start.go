@@ -8,9 +8,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/keybase/client/go/kbfs/libfs"
-	"github.com/keybase/client/go/kbfs/libgit"
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libgit"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 )
 
 // StartOptions are options for starting up.

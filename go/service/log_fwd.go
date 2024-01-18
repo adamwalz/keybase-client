@@ -3,7 +3,7 @@
 
 package service
 
-import keybase1 "github.com/keybase/client/go/protocol/keybase1"
+import keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
 type logEntry struct {
 	level  keybase1.LogLevel

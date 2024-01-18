@@ -6,7 +6,7 @@ package pvl
 import (
 	"testing"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // TestParse parses the hardcoded string

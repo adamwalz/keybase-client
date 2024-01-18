@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // nonce24 manages a 24-byte nonce with a 20-byte prefix

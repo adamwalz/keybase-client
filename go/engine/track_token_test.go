@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
-	gregor1 "github.com/keybase/client/go/protocol/gregor1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	gregor1 "github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/clockwork"
 	context "golang.org/x/net/context"
 )

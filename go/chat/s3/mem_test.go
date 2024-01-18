@@ -3,7 +3,7 @@ package s3
 import (
 	"bytes"
 	"crypto/sha256"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"strings"
 	"testing"
 

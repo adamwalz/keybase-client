@@ -5,9 +5,9 @@
 package libkbfs
 
 import (
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

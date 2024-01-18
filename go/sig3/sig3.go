@@ -6,9 +6,9 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/msgpack"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-crypto/ed25519"
 )
 

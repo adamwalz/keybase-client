@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func getWotVouchChainLink(mctx MetaContext, uid keybase1.UID, sigID keybase1.SigID) (cl *WotVouchChainLink, voucher *User, err error) {

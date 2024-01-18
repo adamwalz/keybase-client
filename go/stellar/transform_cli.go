@@ -3,10 +3,10 @@ package stellar
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar/relays"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar/relays"
 )
 
 func localizePayment(mctx libkb.MetaContext, p stellar1.PaymentSummary) (res stellar1.PaymentCLILocal, err error) {

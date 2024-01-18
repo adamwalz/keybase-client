@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 var validTopicNameRegex = regexp.MustCompile(`^[0-9a-zA-Z_-]+$`)

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	storage "github.com/keybase/client/go/teams/storage"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	storage "github.com/adamwalz/keybase-client/go/teams/storage"
 )
 
 const (

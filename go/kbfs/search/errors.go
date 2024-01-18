@@ -7,9 +7,9 @@ package search
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 )
 
 // RevisionGCdError indicates that a revision has been

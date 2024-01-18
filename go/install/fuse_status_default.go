@@ -6,7 +6,7 @@
 
 package install
 
-import "github.com/keybase/client/go/protocol/keybase1"
+import "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
 func KeybaseFuseStatus(bundleVersion string, log Log) keybase1.FuseStatus {
 	return keybase1.FuseStatus{}

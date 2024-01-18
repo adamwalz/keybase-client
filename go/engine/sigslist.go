@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"regexp"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // SigsList is an engine for the sigs-list command.

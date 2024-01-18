@@ -10,13 +10,13 @@ import (
 	"crypto/sha512"
 	"encoding/base64"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
 	"github.com/keybase/go-crypto/ed25519"
 	"golang.org/x/net/context"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Seitan tokens v2 have a '+' as the sixth character. We use this

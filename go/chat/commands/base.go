@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 type baseCommand struct {

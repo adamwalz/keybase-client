@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/keybase/client/go/citogo/types"
+	"github.com/adamwalz/keybase-client/go/citogo/types"
 )
 
 type opts struct {

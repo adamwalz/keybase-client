@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbname "github.com/keybase/client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
 	"golang.org/x/net/context"
 )
 

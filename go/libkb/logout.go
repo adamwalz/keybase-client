@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func (mctx MetaContext) LogoutKillSecrets() (err error) {

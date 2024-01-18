@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/keybase/client/go/updater/keybase"
+	"github.com/adamwalz/keybase-client/go/updater/keybase"
 )
 
 type logger struct{}

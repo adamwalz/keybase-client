@@ -1,8 +1,8 @@
 package externals
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/pvl"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/pvl"
 )
 
 func setupTest(tb libkb.TestingTB, name string, depth int) libkb.TestContext {

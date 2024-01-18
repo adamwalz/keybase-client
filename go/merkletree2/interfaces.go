@@ -1,6 +1,6 @@
 package merkletree2
 
-import "github.com/keybase/client/go/logger"
+import "github.com/adamwalz/keybase-client/go/logger"
 
 // StorageEngine specifies how to store and lookup merkle tree nodes, roots and
 // KeyEncodedValuePairs. You can use a DB like Dynamo or SQL to do this.

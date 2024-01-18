@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // SupportedVersion is which version of ParamProofs is supported by this client.

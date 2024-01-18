@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 type Command interface {

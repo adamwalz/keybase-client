@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
 )
 
 type errorFile struct { // nolint

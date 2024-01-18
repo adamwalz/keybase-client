@@ -6,7 +6,7 @@ package kbcrypto
 import (
 	"crypto/sha256"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func ComputeSigIDFromSigBody(body []byte) keybase1.SigIDBase {

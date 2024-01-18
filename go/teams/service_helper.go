@@ -8,13 +8,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/avatars"
-	email_utils "github.com/keybase/client/go/emails"
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/avatars"
+	email_utils "github.com/adamwalz/keybase-client/go/emails"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func LoadTeamPlusApplicationKeys(ctx context.Context, g *libkb.GlobalContext, id keybase1.TeamID,

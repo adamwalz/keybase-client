@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/keybase/client/go/stellar"
-	"github.com/keybase/client/go/terminalescaper"
+	"github.com/adamwalz/keybase-client/go/stellar"
+	"github.com/adamwalz/keybase-client/go/terminalescaper"
 	isatty "github.com/mattn/go-isatty"
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 )
 
 func printPayment(g *libkb.GlobalContext, p stellar1.PaymentCLILocal, verbose, details bool, dui libkb.DumbOutputUI) {

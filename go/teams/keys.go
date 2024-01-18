@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"golang.org/x/crypto/nacl/box"
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/net/context"

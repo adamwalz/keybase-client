@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	libkb "github.com/keybase/client/go/libkb"
-	logger "github.com/keybase/client/go/logger"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	logger "github.com/adamwalz/keybase-client/go/logger"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	context "golang.org/x/net/context"
 )
 

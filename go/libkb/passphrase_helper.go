@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func GetKeybasePassphrase(m MetaContext, ui SecretUI, arg keybase1.GUIEntryArg) (keybase1.GetPassphraseRes, error) {

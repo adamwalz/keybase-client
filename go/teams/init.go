@@ -1,8 +1,8 @@
 package teams
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/teams/hidden"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/teams/hidden"
 )
 
 func ServiceInit(g *libkb.GlobalContext) {

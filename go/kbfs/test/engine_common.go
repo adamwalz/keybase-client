@@ -8,10 +8,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbname "github.com/keybase/client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
 )
 
 func setBlockSizes(t testing.TB, config libkbfs.Config, blockSize, blockChangeSize int64) {

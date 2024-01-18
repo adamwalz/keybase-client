@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"golang.org/x/sys/windows/registry"
 )
 

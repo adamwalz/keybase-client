@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/keybase/backoff"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 )

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 const localUsernameRE = "(?:[a-zA-A0-0_]+-?)+"

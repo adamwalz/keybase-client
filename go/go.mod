@@ -1,4 +1,4 @@
-module github.com/keybase/client/go
+module github.com/adamwalz/keybase-client/go
 
 go 1.19
 

@@ -10,7 +10,7 @@ import (
 
 	"crypto/rand"
 
-	"github.com/keybase/client/go/kex2"
+	"github.com/adamwalz/keybase-client/go/kex2"
 )
 
 type ktester struct {

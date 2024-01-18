@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar"
-	"github.com/keybase/client/go/stellar/stellarcommon"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar"
+	"github.com/adamwalz/keybase-client/go/stellar/stellarcommon"
 	"github.com/stellar/go/address"
 	proto "github.com/stellar/go/protocols/federation"
 	stellarErrors "github.com/stellar/go/support/errors"

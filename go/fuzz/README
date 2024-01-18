@@ -8,7 +8,7 @@ To run go-fuzz:
 
 In each subdirectory of keybase/client/go/fuzz, for example passphrase_stream:
 
-1. go-fuzz-build github.com/keybase/client/go/fuzz/passphrase_stream
+1. go-fuzz-build github.com/adamwalz/keybase-client/go/fuzz/passphrase_stream
 
 2. (in keybase/client/go/fuzz/passphrase_stream)
 

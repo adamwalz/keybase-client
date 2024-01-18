@@ -6,8 +6,8 @@ package engine
 import (
 	"sort"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // DevList is an engine that gets a list of all the user's

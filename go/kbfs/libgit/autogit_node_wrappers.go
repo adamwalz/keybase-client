@@ -11,10 +11,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/libfs"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/libfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	billy "gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 )

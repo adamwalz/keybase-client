@@ -8,7 +8,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 // Mounter is the interface for filesystems to be mounted by MountInterrupter.

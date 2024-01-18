@@ -1,7 +1,7 @@
 package stellar
 
 import (
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	"github.com/keybase/stellarnet"
 )
 

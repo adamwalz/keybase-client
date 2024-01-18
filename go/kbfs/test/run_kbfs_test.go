@@ -10,8 +10,8 @@ package test
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 )
 
 func createEngine(tb testing.TB) Engine {

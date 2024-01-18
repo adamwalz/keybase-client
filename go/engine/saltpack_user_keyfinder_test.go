@@ -8,7 +8,7 @@ package engine
 import (
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // Note: a lot of the functionality of SaltpackUserKeyfinder is tested through the SaltpackRecipientKeyfinderEngine (in go/saltpackkeys),

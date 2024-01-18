@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"bazil.org/fuse/fs"
-	"github.com/keybase/client/go/kbfs/libfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libfs"
 )
 
 // handleCommonSpecialFile handles special files that are present both

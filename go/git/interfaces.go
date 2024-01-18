@@ -1,7 +1,7 @@
 package git
 
 import (
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"golang.org/x/net/context"
 )
 

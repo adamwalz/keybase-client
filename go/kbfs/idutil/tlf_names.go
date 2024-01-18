@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbname "github.com/keybase/client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
 	"github.com/pkg/errors"
 )
 

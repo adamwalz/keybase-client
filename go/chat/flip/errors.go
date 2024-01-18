@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	chat1 "github.com/keybase/client/go/protocol/chat1"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 type Error struct {

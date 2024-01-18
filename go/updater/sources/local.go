@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // LocalUpdateSource finds releases/updates from a path (used primarily for testing)

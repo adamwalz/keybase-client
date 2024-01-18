@@ -7,7 +7,7 @@ import (
 	"context"
 	"testing"
 
-	libkb "github.com/keybase/client/go/libkb"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/stretchr/testify/require"
 )
 

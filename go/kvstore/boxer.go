@@ -4,11 +4,11 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/keybase/client/go/chat/signencrypt"
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/signencrypt"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-crypto/ed25519"
 )
 

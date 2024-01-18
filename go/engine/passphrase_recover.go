@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // PassphraseRecover is an engine that implements the "password recovery" flow,

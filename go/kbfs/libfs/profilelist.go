@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 	"github.com/pkg/errors"
 	billy "gopkg.in/src-d/go-billy.v4"
 )

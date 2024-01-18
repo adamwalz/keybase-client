@@ -10,10 +10,10 @@ import (
 	"runtime"
 	"strings"
 
-	gh "github.com/keybase/client/go/release/github"
-	"github.com/keybase/client/go/release/update"
-	"github.com/keybase/client/go/release/version"
-	"github.com/keybase/client/go/release/winbuild"
+	gh "github.com/adamwalz/keybase-client/go/release/github"
+	"github.com/adamwalz/keybase-client/go/release/update"
+	"github.com/adamwalz/keybase-client/go/release/version"
+	"github.com/adamwalz/keybase-client/go/release/winbuild"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

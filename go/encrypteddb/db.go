@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-errors/errors"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/net/context"
 )

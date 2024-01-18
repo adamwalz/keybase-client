@@ -8,12 +8,12 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/storage"
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/storage"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type DummyIdentifyNotifier struct{}

@@ -5,11 +5,11 @@
 package idutil
 
 import (
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 const (

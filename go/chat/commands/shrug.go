@@ -3,9 +3,9 @@ package commands
 import (
 	"context"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 type Shrug struct {

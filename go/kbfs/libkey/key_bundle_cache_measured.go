@@ -5,7 +5,7 @@
 package libkey
 
 import (
-	"github.com/keybase/client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

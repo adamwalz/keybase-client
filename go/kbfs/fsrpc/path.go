@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/kbfs/tlfhandle"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlfhandle"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

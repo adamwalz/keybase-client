@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/keybase1"
-	stellar1 "github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	stellar1 "github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	context "golang.org/x/net/context"
 )

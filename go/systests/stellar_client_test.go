@@ -1,7 +1,7 @@
 package systests
 
 import (
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	context "golang.org/x/net/context"
 )

@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/keybase/client/go/chat/globals"
+import "github.com/adamwalz/keybase-client/go/chat/globals"
 
 func SetupGlobalHooks(g *globals.Context) {
 	g.ExternalG().AddLogoutHook(inboxMemCache, "chat/storage/inbox")

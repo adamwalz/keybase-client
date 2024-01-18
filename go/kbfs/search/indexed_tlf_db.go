@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/ldbutils"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/ldbutils"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

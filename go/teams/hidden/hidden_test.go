@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/keybase/client/go/blindtree"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/blindtree"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 )
 
 func TestMakeHiddenRespFromTeamLeaf(t *testing.T) {

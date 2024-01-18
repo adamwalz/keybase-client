@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
 	billy "gopkg.in/src-d/go-billy.v4"
 )
 

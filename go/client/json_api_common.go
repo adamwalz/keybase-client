@@ -11,8 +11,8 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // ErrInvalidOptions is returned when the options aren't valid.

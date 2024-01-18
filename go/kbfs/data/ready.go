@@ -7,9 +7,9 @@ package data
 import (
 	"context"
 
-	"github.com/keybase/client/go/kbfs/kbfsblock"
-	"github.com/keybase/client/go/kbfs/libkey"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkey"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // ReadyBlock is a thin wrapper around ReadyProvider.Ready() that

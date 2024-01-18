@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/keybase/client/go/updater/process"
+	"github.com/adamwalz/keybase-client/go/updater/process"
 )
 
 // ExitOn describes when a program should exit (not-restart)

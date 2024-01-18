@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	"github.com/keybase/client/go/kbfs/test/clocktest"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/test/clocktest"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 	"github.com/stretchr/testify/require"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"golang.org/x/net/context"

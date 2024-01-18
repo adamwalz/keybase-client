@@ -12,8 +12,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/pkg/errors"
 	billy "gopkg.in/src-d/go-billy.v4"
 )

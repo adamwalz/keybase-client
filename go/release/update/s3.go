@@ -17,7 +17,7 @@ import (
 
 	"github.com/alecthomas/template"
 	"github.com/blang/semver"
-	"github.com/keybase/client/go/release/version"
+	"github.com/adamwalz/keybase-client/go/release/version"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

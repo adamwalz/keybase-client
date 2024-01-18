@@ -12,8 +12,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Similar to the Brew install on OSX, the Unix install happens in two steps.

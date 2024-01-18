@@ -25,7 +25,7 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/keybase/client/go/utils"
+	"github.com/adamwalz/keybase-client/go/utils"
 	"github.com/keybase/gomounts"
 )
 

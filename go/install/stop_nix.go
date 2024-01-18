@@ -12,8 +12,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func StopAllButService(mctx libkb.MetaContext, exitCode keybase1.ExitCode) {

@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/keybase/client/go/kbfs/favorites"
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/kbfsedits"
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/favorites"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsedits"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

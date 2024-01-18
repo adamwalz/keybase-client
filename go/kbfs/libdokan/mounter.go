@@ -7,8 +7,8 @@ package libdokan
 import (
 	"time"
 
-	"github.com/keybase/client/go/kbfs/dokan"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 type mounter struct {

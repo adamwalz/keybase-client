@@ -8,9 +8,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // NormalizedUsernameGetter is a simple map of IDs -> usernames that

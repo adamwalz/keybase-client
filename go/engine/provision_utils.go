@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func retryOnEphemeralRace(mctx libkb.MetaContext, fn func(mctx libkb.MetaContext) error) (err error) {

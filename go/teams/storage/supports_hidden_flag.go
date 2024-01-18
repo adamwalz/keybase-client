@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // SupportsHiddenFlagStorage stores the supports_hidden_chain flag to disk and memory.

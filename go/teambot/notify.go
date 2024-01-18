@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func NotifyTeambotEKNeeded(mctx libkb.MetaContext, teamID keybase1.TeamID, generation keybase1.EkGeneration) error {

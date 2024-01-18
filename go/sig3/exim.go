@@ -3,7 +3,7 @@ package sig3
 import (
 	"encoding/hex"
 	"fmt"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func (p PerTeamKey) Export(q keybase1.Seqno) keybase1.PerTeamKeyAndCheck {

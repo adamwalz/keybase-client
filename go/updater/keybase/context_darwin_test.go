@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/command"
 	"github.com/stretchr/testify/require"
 )
 

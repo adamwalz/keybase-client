@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/keybase/client/go/contacts"
-	email_utils "github.com/keybase/client/go/emails"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/contacts"
+	email_utils "github.com/adamwalz/keybase-client/go/emails"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 

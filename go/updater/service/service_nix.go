@@ -7,7 +7,7 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/keybase/client/go/updater/keybase"
+	"github.com/adamwalz/keybase-client/go/updater/keybase"
 )
 
 func (s *service) lockPID() (io.Closer, error) {

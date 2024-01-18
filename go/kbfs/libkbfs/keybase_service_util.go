@@ -7,10 +7,10 @@ package libkbfs
 import (
 	"sync"
 
-	"github.com/keybase/client/go/kbconst"
-	"github.com/keybase/client/go/kbfs/idutil"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/kbconst"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"golang.org/x/net/context"
 )
 

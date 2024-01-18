@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // UIAdapter converts between the Identify2 UI that Identify2 engine expects, and the

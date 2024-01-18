@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	Q "github.com/PuerkitoBio/goquery"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/kr/text"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"

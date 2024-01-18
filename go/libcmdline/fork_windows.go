@@ -10,7 +10,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 const flagCreateNewConsole = 0x00000010

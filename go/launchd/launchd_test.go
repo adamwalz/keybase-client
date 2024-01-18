@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/utils"
+	"github.com/adamwalz/keybase-client/go/utils"
 )
 
 func validExecutableForTest() (string, error) {

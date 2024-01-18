@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // pwhStoreIdentifier is the suffix used for secret store identifier.

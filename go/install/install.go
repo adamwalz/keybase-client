@@ -14,9 +14,9 @@ import (
 	"strings"
 
 	"github.com/blang/semver"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/utils"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/utils"
 )
 
 // Log is the logging interface for this package

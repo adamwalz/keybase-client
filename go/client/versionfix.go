@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	"github.com/keybase/client/go/install"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/status"
+	"github.com/adamwalz/keybase-client/go/install"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/status"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 )

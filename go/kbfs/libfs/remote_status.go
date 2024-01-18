@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"golang.org/x/net/context"
 )
 

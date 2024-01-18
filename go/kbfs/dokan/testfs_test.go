@@ -19,8 +19,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
-	"github.com/keybase/client/go/kbfs/ioutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/ioutil"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sys/windows"
 )

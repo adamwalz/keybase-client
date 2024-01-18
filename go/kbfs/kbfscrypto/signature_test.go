@@ -7,8 +7,8 @@ package kbfscrypto
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

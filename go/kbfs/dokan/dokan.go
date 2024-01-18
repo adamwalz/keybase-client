@@ -5,7 +5,7 @@
 package dokan
 
 import (
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
 )
 
 // MountHandle holds a reference to a mounted filesystem.

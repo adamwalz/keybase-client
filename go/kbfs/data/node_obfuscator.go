@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 const (

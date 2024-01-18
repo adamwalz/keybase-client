@@ -7,18 +7,18 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/keybase/client/go/encrypteddb"
+	"github.com/adamwalz/keybase-client/go/encrypteddb"
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/chat"
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/offline"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams"
-	"github.com/keybase/client/go/tlfupgrade"
+	"github.com/adamwalz/keybase-client/go/chat"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/offline"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams"
+	"github.com/adamwalz/keybase-client/go/tlfupgrade"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 )
 

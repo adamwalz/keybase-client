@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/libpages/config"
+	"github.com/adamwalz/keybase-client/go/kbfs/libpages/config"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bcrypt"
 )

@@ -15,8 +15,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/keybase/client/go/updater/saltpack"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater/saltpack"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 	"github.com/keybase/go-logging"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

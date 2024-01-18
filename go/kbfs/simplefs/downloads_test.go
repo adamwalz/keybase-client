@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/env"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/env"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

@@ -12,9 +12,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/keybase/client/go/kbcrypto"
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // Service defines a service

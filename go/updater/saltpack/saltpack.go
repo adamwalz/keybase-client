@@ -8,9 +8,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 	sp "github.com/keybase/saltpack"
 	"github.com/keybase/saltpack/basic"
 )

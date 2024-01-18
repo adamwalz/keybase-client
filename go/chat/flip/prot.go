@@ -5,8 +5,8 @@ package flip
 
 import (
 	"errors"
-	chat1 "github.com/keybase/client/go/protocol/chat1"
-	gregor1 "github.com/keybase/client/go/protocol/gregor1"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
+	gregor1 "github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 )
 

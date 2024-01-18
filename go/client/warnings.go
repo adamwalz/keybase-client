@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	context "golang.org/x/net/context"
 )
 

@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func HandleRotateRequest(ctx context.Context, g *libkb.GlobalContext, msg keybase1.TeamCLKRMsg) (err error) {

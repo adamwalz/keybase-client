@@ -13,17 +13,17 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/keybase/client/go/terminalescaper"
+	"github.com/adamwalz/keybase-client/go/terminalescaper"
 	isatty "github.com/mattn/go-isatty"
 
 	"golang.org/x/net/context"
 
 	"sync"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/spotty"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/spotty"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 )
 

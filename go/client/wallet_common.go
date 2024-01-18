@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 )
 
 func parseAssetString(s string) (stellar1.Asset, error) {

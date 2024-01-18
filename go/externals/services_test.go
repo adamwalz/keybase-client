@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	libkb "github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 )
 

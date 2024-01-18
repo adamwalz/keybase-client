@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 
 	lru "github.com/hashicorp/golang-lru"
 )

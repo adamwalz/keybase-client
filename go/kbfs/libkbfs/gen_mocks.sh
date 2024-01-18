@@ -7,24 +7,24 @@ function gen {
 
     tmp=$(mktemp)
     mockgen --package="libkbfs" \
-        --self_package github.com/keybase/client/go/kbfs/libkbfs \
+        --self_package github.com/adamwalz/keybase-client/go/kbfs/libkbfs \
         $srcPkg $symbols > $tmp
     dstFile=${dst}_mocks_test.go
     mv $tmp $dstFile
     go fmt $dstFile
 }
 
-gen github.com/keybase/client/go/kbfs/libkey libkey \
+gen github.com/adamwalz/keybase-client/go/kbfs/libkey libkey \
 KeyOps,\
 KeyServer
 
-gen github.com/keybase/client/go/kbfs/data data \
+gen github.com/adamwalz/keybase-client/go/kbfs/data data \
 BlockCache,\
 BlockSplitter,\
 BlockWithPtrs,\
 DirtyBlockCache
 
-gen github.com/keybase/client/go/kbfs/libkbfs libkbfs \
+gen github.com/adamwalz/keybase-client/go/kbfs/libkbfs libkbfs \
 BlockOps,\
 BlockServer,\
 Chat,\

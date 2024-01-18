@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // ResolveIDToName takes a team ID and resolves it to a name.

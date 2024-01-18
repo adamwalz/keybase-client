@@ -8,7 +8,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 )
 
 // ActivesGetter holds necessary data to generate number of active TLFs or

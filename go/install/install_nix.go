@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/keybase/client/go/lsof"
+	"github.com/adamwalz/keybase-client/go/lsof"
 )
 
 // maybeKernelOpenFiles returns true if the kernel might currently

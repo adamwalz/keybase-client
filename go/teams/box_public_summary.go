@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-codec/codec"
 )
 

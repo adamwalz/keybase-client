@@ -3,8 +3,8 @@ package libkb
 import (
 	"time"
 
-	"github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type deviceForUsersRet struct {

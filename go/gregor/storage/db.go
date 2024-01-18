@@ -3,8 +3,8 @@ package storage
 import (
 	"encoding/hex"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 type localStorageRecord struct {

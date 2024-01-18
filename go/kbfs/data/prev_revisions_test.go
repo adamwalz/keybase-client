@@ -7,7 +7,7 @@ package data
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
 	"github.com/stretchr/testify/require"
 )
 

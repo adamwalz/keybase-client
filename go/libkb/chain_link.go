@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/keybase/client/go/jsonparserw"
-	"github.com/keybase/client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/jsonparserw"
+	"github.com/adamwalz/keybase-client/go/msgpack"
 	pkgerrors "github.com/pkg/errors"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

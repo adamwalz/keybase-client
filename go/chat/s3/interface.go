@@ -3,7 +3,7 @@ package s3
 import (
 	"io"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"golang.org/x/net/context"
 )
 

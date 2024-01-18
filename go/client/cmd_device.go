@@ -5,8 +5,8 @@ package client
 
 import (
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // NewCmdDevice creates the device command, which is just a holder

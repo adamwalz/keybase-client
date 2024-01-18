@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/msgpack"
 
 	"github.com/stretchr/testify/require"
 )

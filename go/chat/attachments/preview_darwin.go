@@ -70,8 +70,8 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
 	"golang.org/x/net/context"
 )
 

@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 	"github.com/stretchr/testify/require"
 )
 

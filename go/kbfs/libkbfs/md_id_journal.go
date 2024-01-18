@@ -7,9 +7,9 @@ package libkbfs
 import (
 	"reflect"
 
-	"github.com/keybase/client/go/kbfs/ioutil"
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
+	"github.com/adamwalz/keybase-client/go/kbfs/ioutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
 	"github.com/keybase/go-codec/codec"
 	"github.com/pkg/errors"
 )

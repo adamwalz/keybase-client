@@ -14,7 +14,7 @@ import (
 	"path"
 	"strings"
 
-	releaseVersion "github.com/keybase/client/go/release/version"
+	releaseVersion "github.com/adamwalz/keybase-client/go/release/version"
 )
 
 // EncodeJSON returns JSON (as bytes) for an update

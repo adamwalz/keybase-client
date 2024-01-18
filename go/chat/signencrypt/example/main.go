@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	docopt "github.com/docopt/docopt-go"
-	"github.com/keybase/client/go/chat/signencrypt"
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/chat/signencrypt"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 	"github.com/keybase/go-crypto/ed25519"
 )
 

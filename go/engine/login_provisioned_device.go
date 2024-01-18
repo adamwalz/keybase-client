@@ -4,8 +4,8 @@
 package engine
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // LoginProvisionedDevice is an engine that tries to login using the

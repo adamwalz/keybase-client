@@ -20,8 +20,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // we will show some representation of an exploded message in the UI for a week

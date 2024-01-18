@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/keybase/client/go/externalstest"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/externalstest"
+	"github.com/adamwalz/keybase-client/go/libkb"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/s3"
-	"github.com/keybase/client/go/chat/signencrypt"
-	"github.com/keybase/client/go/chat/storage"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/s3"
+	"github.com/adamwalz/keybase-client/go/chat/signencrypt"
+	"github.com/adamwalz/keybase-client/go/chat/storage"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

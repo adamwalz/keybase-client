@@ -3,8 +3,8 @@ package storage
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Storage stores TeamData's on memory and disk. Threadsafe. For the standard loader,

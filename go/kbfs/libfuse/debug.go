@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 var statfsOrAccessRegexp = regexp.MustCompile(`^(<-|->).* (Statfs|Access)`)

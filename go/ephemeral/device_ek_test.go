@@ -3,7 +3,7 @@ package ephemeral
 import (
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/stretchr/testify/require"
 )
 

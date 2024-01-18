@@ -3,9 +3,9 @@ package identify3
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func Identify3(mctx libkb.MetaContext, ui3 keybase1.Identify3UiInterface, arg keybase1.Identify3Arg) (err error) {

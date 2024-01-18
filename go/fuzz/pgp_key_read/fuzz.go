@@ -6,7 +6,7 @@
 
 package libkb
 
-import "github.com/keybase/client/go/libkb"
+import "github.com/adamwalz/keybase-client/go/libkb"
 
 func Fuzz(data []byte) int {
 	key, _, err := libkb.ReadOneKeyFromBytes(data)

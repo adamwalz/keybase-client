@@ -7,8 +7,8 @@
 package status
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func osSpecific(mctx libkb.MetaContext, status *keybase1.FullStatus) error {

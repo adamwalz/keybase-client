@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/keybase/client/go/kbnm/hostmanifest"
+	"github.com/adamwalz/keybase-client/go/kbnm/hostmanifest"
 )
 
 const kbnmAppName = "io.keybase.kbnm"

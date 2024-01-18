@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 // In memory StorageEngine implementation, used for tests. It ignores

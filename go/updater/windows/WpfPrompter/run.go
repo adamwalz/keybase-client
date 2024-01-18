@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/kardianos/osext"
-	"github.com/keybase/client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater/command"
 	"github.com/keybase/go-logging"
 )
 

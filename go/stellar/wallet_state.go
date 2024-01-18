@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/golang/groupcache/singleflight"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar/remote"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar/remote"
 )
 
 // ErrAccountNotFound is returned when the account is not in

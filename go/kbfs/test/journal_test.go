@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 )
 
 // bob creates a file while running the journal.

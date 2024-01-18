@@ -15,10 +15,10 @@ import (
 	"time"
 
 	"github.com/kardianos/osext"
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/command"
-	"github.com/keybase/client/go/updater/process"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater/process"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // execPath returns the app bundle path where this executable is located

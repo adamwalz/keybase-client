@@ -6,13 +6,13 @@ package saltpackkeys
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/saltpack"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // SaltpackRecipientKeyfinderEngine is an engine to find Per User/Per Team Keys.

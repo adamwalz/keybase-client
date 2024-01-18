@@ -9,4 +9,4 @@ build_dir=${BUILD_DIR:-/Applications/Keybase.app/Contents/SharedSupport/bin}
 dest="$build_dir/updater"
 
 echo "Building go-updater/service to $dest"
-GO15VENDOREXPERIMENT=1 go build -a -o "$dest" github.com/keybase/client/go/updater/service
+GO15VENDOREXPERIMENT=1 go build -a -o "$dest" github.com/adamwalz/keybase-client/go/updater/service

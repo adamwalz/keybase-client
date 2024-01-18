@@ -7,7 +7,7 @@ package kbfscrypto
 import (
 	"strings"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // The functions below must be used only in tests.

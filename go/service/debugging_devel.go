@@ -15,12 +15,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	chatwallet "github.com/keybase/client/go/chat/wallet"
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/teams"
+	chatwallet "github.com/adamwalz/keybase-client/go/chat/wallet"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/stellarnet"
 	"github.com/stellar/go/build"
 

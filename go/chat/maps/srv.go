@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/keybase/client/go/avatars"
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/avatars"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
-	"github.com/keybase/client/go/kbhttp/manager"
+	"github.com/adamwalz/keybase-client/go/kbhttp/manager"
 )
 
 type Srv struct {

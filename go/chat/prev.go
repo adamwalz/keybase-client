@@ -1,6 +1,6 @@
 package chat
 
-import "github.com/keybase/client/go/protocol/chat1"
+import "github.com/adamwalz/keybase-client/go/protocol/chat1"
 
 // Ingest a ThreadView, check several invariants, and produce a list of prev
 // pointers to not-yet-pointed-to messages. Check several invariants at the

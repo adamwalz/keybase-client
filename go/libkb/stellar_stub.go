@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/protocol/chat1"
-	stellar1 "github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	stellar1 "github.com/adamwalz/keybase-client/go/protocol/stellar1"
 )
 
 type nullStellar struct {

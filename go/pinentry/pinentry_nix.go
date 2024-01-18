@@ -13,7 +13,7 @@ import (
 
 	"os/exec"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 //

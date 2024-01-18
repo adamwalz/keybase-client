@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // ReportError notifies the API server of a client updater error

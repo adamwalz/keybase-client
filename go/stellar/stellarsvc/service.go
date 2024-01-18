@@ -11,11 +11,11 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar"
-	"github.com/keybase/client/go/stellar/remote"
-	"github.com/keybase/client/go/stellar/stellarcommon"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar"
+	"github.com/adamwalz/keybase-client/go/stellar/remote"
+	"github.com/adamwalz/keybase-client/go/stellar/stellarcommon"
 	"github.com/keybase/stellarnet"
 	"github.com/stellar/go/xdr"
 )

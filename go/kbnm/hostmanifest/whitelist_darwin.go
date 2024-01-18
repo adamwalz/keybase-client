@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/keybase/client/go/chat/attachments"
+	"github.com/adamwalz/keybase-client/go/chat/attachments"
 )
 
 func wrapWriteErr(err error, hostsPath string) error {

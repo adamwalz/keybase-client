@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
 )
 
 func helpLines(buf bytes.Buffer) []string {

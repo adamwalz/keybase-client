@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	chat1 "github.com/keybase/client/go/protocol/chat1"
-	gregor1 "github.com/keybase/client/go/protocol/gregor1"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
+	gregor1 "github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	clockwork "github.com/keybase/clockwork"
 	"github.com/stretchr/testify/require"
 )

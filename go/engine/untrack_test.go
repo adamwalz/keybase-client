@@ -6,8 +6,8 @@ package engine
 import (
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func runUntrack(tc libkb.TestContext, fu *FakeUser, username string, sigVersion libkb.SigVersion) error {

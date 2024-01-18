@@ -7,8 +7,8 @@ package kbfsmd
 import (
 	"encoding"
 
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfshash"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfshash"
 )
 
 // MerkleHash is the hash of a RootMetadataSigned block.

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/keybase/client/go/kbfs/kbfshash"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfshash"
 	"github.com/keybase/go-codec/codec"
 )
 

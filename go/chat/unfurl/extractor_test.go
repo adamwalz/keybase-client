@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/externalstest"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/externalstest"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"github.com/stretchr/testify/require"
 )
 
@@ -71,7 +71,7 @@ func TestExtractor(t *testing.T) {
 		},
 		{
 			message: fmt.Sprintf(`%s
-			[mike@lisa-keybase]-[~/go/src/github.com/keybase/client/go] (mike/markdown)$ scraper https://www.wsj.com/articles/a-silicon-valley-tech-leader-walks-a-high-wire-between-the-u-s-and-china-1542650707?mod=hp_lead_pos4
+			[mike@lisa-keybase]-[~/go/src/github.com/adamwalz/keybase-client/go] (mike/markdown)$ scraper https://www.wsj.com/articles/a-silicon-valley-tech-leader-walks-a-high-wire-between-the-u-s-and-china-1542650707?mod=hp_lead_pos4
 			2018/11/19 16:33:52 ++Chat: + Scraper: Scrape
 			2018/11/19 16:33:53 ++Chat: | Scraper: scrapeGeneric: pubdate: 2018-11-19T18:05:00.000Z
 			2018/11/19 16:33:53 ++Chat: | Scraper: scrapeGeneric: success: 1542650700

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/externalstest"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/externalstest"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 )

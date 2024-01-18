@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 	"github.com/pkg/errors"
 )
 

@@ -7,8 +7,8 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"golang.org/x/net/context"
 )
 

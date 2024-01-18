@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"
 )

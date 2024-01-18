@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	"github.com/keybase/stellarnet"
 	"github.com/stellar/go/build"
 )

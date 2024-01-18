@@ -14,8 +14,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
 
 	_ "github.com/keybase/golang-ico" // for image decoding
 	"github.com/nfnt/resize"

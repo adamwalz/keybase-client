@@ -10,8 +10,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Install empty implementation for unsupported platforms

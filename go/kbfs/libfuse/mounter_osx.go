@@ -20,8 +20,8 @@ import (
 	"unsafe"
 
 	"bazil.org/fuse"
-	"github.com/keybase/client/go/install/libnativeinstaller"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/install/libnativeinstaller"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 var kbfusePath = fuse.OSXFUSEPaths{

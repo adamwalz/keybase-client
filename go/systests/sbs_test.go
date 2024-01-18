@@ -3,15 +3,15 @@ package systests
 import (
 	"testing"
 
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/teams"
 
-	"github.com/keybase/client/go/emails"
+	"github.com/adamwalz/keybase-client/go/emails"
 
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/kbtest"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/phonenumbers"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/kbtest"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/phonenumbers"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 	context "golang.org/x/net/context"
 )

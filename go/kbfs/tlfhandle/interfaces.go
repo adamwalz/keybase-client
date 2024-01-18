@@ -7,7 +7,7 @@ package tlfhandle
 import (
 	"context"
 
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 )
 
 // IDGetter is an interface for resolving TLF handles to their TLF IDs.

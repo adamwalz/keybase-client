@@ -6,7 +6,7 @@ package search
 
 import (
 	"github.com/blevesearch/bleve/index/store"
-	"github.com/keybase/client/go/kbfs/libfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libfs"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"

@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // documented in go/teams/seitan.go

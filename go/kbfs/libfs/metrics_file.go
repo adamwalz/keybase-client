@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/kbfs/metricsutil"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/metricsutil"
 	"golang.org/x/net/context"
 )
 

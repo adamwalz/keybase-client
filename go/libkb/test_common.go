@@ -21,10 +21,10 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/gregor1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 )
 

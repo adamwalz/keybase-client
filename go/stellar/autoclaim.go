@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 )
 
 // Claims relay payments in the background.

@@ -5,8 +5,8 @@ import (
 	"net/mail"
 	"strings"
 
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // splitBulk splits on newline or comma.

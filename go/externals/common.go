@@ -4,9 +4,9 @@
 package externals
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/pvl"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/pvl"
 )
 
 func CheckProofPvl(m libkb.MetaContext, proofType keybase1.ProofType, proof libkb.RemoteProofChainLink, hint libkb.SigHint, pvlU keybase1.MerkleStoreEntry) libkb.ProofError {

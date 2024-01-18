@@ -7,7 +7,7 @@ package kbfscrypto
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // InvalidKIDError is returned whenever an invalid KID is detected.

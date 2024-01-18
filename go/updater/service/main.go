@@ -11,9 +11,9 @@ import (
 	"runtime"
 
 	"github.com/kardianos/osext"
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/keybase"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/keybase"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 type flags struct {

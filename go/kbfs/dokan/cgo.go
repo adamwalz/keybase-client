@@ -24,7 +24,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
 	"golang.org/x/sys/windows"
 )
 

@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/saltpack"
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/nacl/box"

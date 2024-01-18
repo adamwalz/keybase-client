@@ -10,8 +10,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/msgpack"
 )
 
 // UnsafeExternalKeyStore is a simple interface that external clients can implement.

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/adamwalz/keybase-client/go/client"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/service"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/service"
 	context "golang.org/x/net/context"
 )
 

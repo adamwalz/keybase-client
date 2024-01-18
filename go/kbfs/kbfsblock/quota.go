@@ -7,8 +7,8 @@ package kbfsblock
 import (
 	"time"
 
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // UsageType indicates the type of usage that quota manager is keeping stats of

@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 // ServiceInfo describes runtime info for a service.

@@ -3,8 +3,8 @@ package chat
 import (
 	"testing"
 
-	"github.com/keybase/client/go/chat/storage"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/chat/storage"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,7 +1,7 @@
 package sig3
 
 import (
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type UID [16]byte

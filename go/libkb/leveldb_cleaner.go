@@ -9,7 +9,7 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	lru "github.com/hashicorp/golang-lru"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"

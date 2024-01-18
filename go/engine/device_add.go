@@ -6,9 +6,9 @@ package engine
 import (
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/kex2"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kex2"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // DeviceAdd is an engine.

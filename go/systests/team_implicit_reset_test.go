@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	teams "github.com/keybase/client/go/teams"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	teams "github.com/adamwalz/keybase-client/go/teams"
 	"github.com/stretchr/testify/require"
 )
 

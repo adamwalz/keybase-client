@@ -4,9 +4,9 @@
 package phonenumbers
 
 import (
-	"github.com/keybase/client/go/contacts"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/contacts"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // AddPhoneNumber calls API to add phone number to currently logged in account.

@@ -23,10 +23,10 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/keybase/client/go/install"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/install"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

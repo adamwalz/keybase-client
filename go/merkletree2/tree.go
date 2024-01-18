@@ -6,7 +6,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/keybase/go-codec/codec"
 )
 

@@ -3,9 +3,9 @@ package merkle
 import (
 	"crypto/sha512"
 
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 	merkletree "github.com/keybase/go-merkle-tree"
 	"github.com/pkg/errors"
 )

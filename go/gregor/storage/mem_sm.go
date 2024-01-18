@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/keybase/clockwork"
 	"golang.org/x/net/context"
 )

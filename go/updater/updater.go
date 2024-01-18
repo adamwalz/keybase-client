@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // Version is the updater version

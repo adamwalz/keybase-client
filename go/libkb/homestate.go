@@ -1,7 +1,7 @@
 package libkb
 
 import (
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type HomeTodoMap map[keybase1.HomeScreenTodoType]int

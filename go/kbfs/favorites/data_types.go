@@ -7,8 +7,8 @@ package favorites
 import (
 	"strings"
 
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // Folder is a top-level favorited folder name.

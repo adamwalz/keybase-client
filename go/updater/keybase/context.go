@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/command"
-	"github.com/keybase/client/go/updater/saltpack"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater/saltpack"
 )
 
 // validCodeSigningKIDs are the list of valid code signing IDs for saltpack verify
@@ -108,7 +108,7 @@ func NewUpdaterContext(appName string, pathToKeybase string, log Log, mode Updat
 	// release update-json --version=`keybase version -S` --src=/tmp/Keybase.zip --uri=/tmp --signature=/tmp/update.sig > /tmp/update.json
 	// Uncomment the following line and the `sources` import above.
 	// src := sources.NewLocalUpdateSource("/tmp/Keybase.zip", "/tmp/update.json", log)
-	// cd $GOPATH/src/github.com/keybase/client/go/updater/service
+	// cd $GOPATH/src/github.com/adamwalz/keybase-client/go/updater/service
 	// go build
 	// cp service /Applications/Keybase.app/Contents/SharedSupport/bin/updater
 	// keybase launchd stop keybase.updater

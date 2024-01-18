@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/keybase/client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/kbun"
 )
 
 var emailRE = regexp.MustCompile(`^\S+@\S+\.\S+$`)

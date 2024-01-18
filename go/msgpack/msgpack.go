@@ -6,7 +6,7 @@ package msgpack
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
 	"github.com/keybase/go-codec/codec"
 )
 

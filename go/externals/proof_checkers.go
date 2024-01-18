@@ -3,7 +3,7 @@
 
 package externals
 
-import libkb "github.com/keybase/client/go/libkb"
+import libkb "github.com/adamwalz/keybase-client/go/libkb"
 
 func getStaticProofServices() []libkb.ServiceType {
 	services := []libkb.ServiceType{

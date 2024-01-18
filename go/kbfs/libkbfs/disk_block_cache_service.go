@@ -7,10 +7,10 @@ package libkbfs
 import (
 	"context"
 
-	"github.com/keybase/client/go/kbfs/kbfsblock"
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/tlf"
-	kbgitkbfs "github.com/keybase/client/go/protocol/kbgitkbfs1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	kbgitkbfs "github.com/adamwalz/keybase-client/go/protocol/kbgitkbfs1"
 )
 
 type diskBlockCacheServiceConfig interface {

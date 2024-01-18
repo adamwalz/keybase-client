@@ -3,8 +3,8 @@ package tlfupgrade
 import (
 	"errors"
 
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type GetTLFForUpgradeResType int

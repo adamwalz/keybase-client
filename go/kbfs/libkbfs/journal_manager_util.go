@@ -8,9 +8,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/data"
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"
 )

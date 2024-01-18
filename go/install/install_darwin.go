@@ -17,13 +17,13 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	"github.com/keybase/client/go/install/libnativeinstaller"
-	kbnminstaller "github.com/keybase/client/go/kbnm/installer"
-	"github.com/keybase/client/go/launchd"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/mounter"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/install/libnativeinstaller"
+	kbnminstaller "github.com/adamwalz/keybase-client/go/kbnm/installer"
+	"github.com/adamwalz/keybase-client/go/launchd"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/mounter"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // defaultLaunchdWait is how long we should wait after install & start.

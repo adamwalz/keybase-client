@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/eapache/channels"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 
 	"golang.org/x/net/context"
 )

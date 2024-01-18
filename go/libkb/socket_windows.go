@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	mspipe "github.com/keybase/go-winio"
 )
 

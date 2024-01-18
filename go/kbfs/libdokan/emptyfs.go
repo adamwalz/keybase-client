@@ -7,8 +7,8 @@ package libdokan
 import (
 	"time"
 
-	"github.com/keybase/client/go/kbfs/dokan"
-	"github.com/keybase/client/go/kbfs/dokan/winacl"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan"
+	"github.com/adamwalz/keybase-client/go/kbfs/dokan/winacl"
 	"golang.org/x/net/context"
 )
 

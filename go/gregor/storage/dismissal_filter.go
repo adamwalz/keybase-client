@@ -3,7 +3,7 @@ package storage
 import (
 	"time"
 
-	"github.com/keybase/client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/gregor"
 )
 
 func FilterFutureDismissals(msgs []gregor.InBandMessage,

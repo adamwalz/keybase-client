@@ -28,7 +28,7 @@ console.log """
 """
 console.log "package libkb"
 console.log ""
-console.log 'import "github.com/keybase/client/go/protocol/keybase1"'
+console.log 'import "github.com/adamwalz/keybase-client/go/protocol/keybase1"'
 console.log ""
 console.log "var merkleSkipTestVectors = []struct{"
 console.log "\tname string"

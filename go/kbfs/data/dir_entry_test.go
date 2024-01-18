@@ -7,7 +7,7 @@ package data
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
 	"github.com/keybase/go-codec/codec"
 )
 

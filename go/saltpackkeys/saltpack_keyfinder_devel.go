@@ -6,7 +6,7 @@
 
 package saltpackkeys
 
-import "github.com/keybase/client/go/libkb"
+import "github.com/adamwalz/keybase-client/go/libkb"
 
 func NewRecipientKeyfinderEngineHook(getKBFSKeyfinderForTesting bool) func(arg libkb.SaltpackRecipientKeyfinderArg) libkb.SaltpackRecipientKeyfinderEngineInterface {
 	return NewSaltpackRecipientKeyfinderEngineAsInterface

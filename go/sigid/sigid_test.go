@@ -3,9 +3,9 @@ package sigid
 import (
 	"testing"
 
-	"github.com/keybase/client/go/jsonparserw"
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/jsonparserw"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/stretchr/testify/require"
 )
 

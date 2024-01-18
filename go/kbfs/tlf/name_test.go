@@ -7,7 +7,7 @@ package tlf
 import (
 	"testing"
 
-	kbname "github.com/keybase/client/go/kbun"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
 	"github.com/stretchr/testify/assert"
 )
 

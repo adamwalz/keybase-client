@@ -6,8 +6,8 @@ package libkb
 import (
 	"encoding/hex"
 
-	"github.com/keybase/client/go/kbun"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbun"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

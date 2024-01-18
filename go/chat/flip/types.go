@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"time"
 
-	chat1 "github.com/keybase/client/go/protocol/chat1"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 func (u UserDevice) Eq(v UserDevice) bool { return u.U.Eq(v.U) && u.D.Eq(v.D) }

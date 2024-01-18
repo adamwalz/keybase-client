@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // DelegatorAggregator manages delegating multiple keys in one post to the

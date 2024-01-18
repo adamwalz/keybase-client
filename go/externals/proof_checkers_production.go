@@ -6,7 +6,7 @@
 
 package externals
 
-import libkb "github.com/keybase/client/go/libkb"
+import libkb "github.com/adamwalz/keybase-client/go/libkb"
 
 const useDevelProofCheckers = false
 

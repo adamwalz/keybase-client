@@ -6,7 +6,7 @@ package engine
 import (
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 func assertStreamCache(tc libkb.TestContext, valid bool) bool {

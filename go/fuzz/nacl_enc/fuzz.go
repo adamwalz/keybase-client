@@ -9,7 +9,7 @@ package libkb
 import (
 	"bytes"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 var kp1, kp2 libkb.NaclDHKeyPair

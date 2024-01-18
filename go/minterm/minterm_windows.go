@@ -10,7 +10,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/keybase/go-crypto/ssh/terminal"
 )
 

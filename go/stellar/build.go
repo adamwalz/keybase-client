@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/stellar/remote"
+	"github.com/adamwalz/keybase-client/go/stellar/remote"
 
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/slotctx"
-	"github.com/keybase/client/go/stellar/stellarcommon"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/slotctx"
+	"github.com/adamwalz/keybase-client/go/stellar/stellarcommon"
 	"github.com/keybase/stellarnet"
 	stellarAddress "github.com/stellar/go/address"
 )

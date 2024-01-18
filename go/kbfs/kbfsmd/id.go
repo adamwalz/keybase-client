@@ -8,8 +8,8 @@ import (
 	"encoding"
 	"encoding/hex"
 
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfshash"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfshash"
 	"github.com/pkg/errors"
 )
 

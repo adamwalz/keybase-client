@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	chat1 "github.com/keybase/client/go/protocol/chat1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

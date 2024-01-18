@@ -1,7 +1,7 @@
 ## Release
 
-[![Build Status](https://github.com/keybase/client/go/release/actions/workflows/ci.yml/badge.svg)](https://github.com/keybase/client/go/release/actions)
-[![GoDoc](https://godoc.org/github.com/keybase/client/go/release?status.svg)](https://godoc.org/github.com/keybase/client/go/release)
+[![Build Status](https://github.com/adamwalz/keybase-client/go/release/actions/workflows/ci.yml/badge.svg)](https://github.com/adamwalz/keybase-client/go/release/actions)
+[![GoDoc](https://godoc.org/github.com/adamwalz/keybase-client/go/release?status.svg)](https://godoc.org/github.com/adamwalz/keybase-client/go/release)
 
 This is a command line tool for build and release scripts for generating updates, interacting with Github and S3.
 

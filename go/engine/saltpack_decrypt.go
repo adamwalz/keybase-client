@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/saltpack"
 	saltpackBasic "github.com/keybase/saltpack/basic"
 )

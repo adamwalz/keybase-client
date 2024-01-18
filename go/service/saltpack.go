@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/chat/attachments/progress"
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/engine"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/saltpackkeys"
+	"github.com/adamwalz/keybase-client/go/chat/attachments/progress"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/engine"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/saltpackkeys"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 )

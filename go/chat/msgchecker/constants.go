@@ -1,6 +1,6 @@
 package msgchecker
 
-import "github.com/keybase/client/go/protocol/chat1"
+import "github.com/adamwalz/keybase-client/go/protocol/chat1"
 
 const (
 	TextMessageMaxLength        = 10000

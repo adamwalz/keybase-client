@@ -1,7 +1,7 @@
 # Updater
 
-[![Build Status](https://github.com/keybase/client/go/updater/actions/workflows/ci.yml/badge.svg)](https://github.com/keybase/client/go/updater/actions)
-[![GoDoc](https://godoc.org/github.com/keybase/client/go/updater?status.svg)](https://godoc.org/github.com/keybase/client/go/updater)
+[![Build Status](https://github.com/adamwalz/keybase-client/go/updater/actions/workflows/ci.yml/badge.svg)](https://github.com/adamwalz/keybase-client/go/updater/actions)
+[![GoDoc](https://godoc.org/github.com/adamwalz/keybase-client/go/updater?status.svg)](https://godoc.org/github.com/adamwalz/keybase-client/go/updater)
 
 **Warning**: This isn't ready for non-Keybase libraries to use yet!
 

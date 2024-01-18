@@ -12,8 +12,8 @@ import (
 	"github.com/keybase/clockwork"
 	"github.com/stretchr/testify/require"
 
-	"github.com/keybase/client/go/msgpack"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-codec/codec"
 	"github.com/keybase/go-crypto/openpgp"
 	triplesec "github.com/keybase/go-triplesec"

@@ -3,8 +3,8 @@ package storage
 import (
 	"sync"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 type outboxMemCacheImpl struct {

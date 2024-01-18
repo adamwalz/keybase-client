@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/kex2"
-	"github.com/keybase/client/go/libkb"
-	gregor1 "github.com/keybase/client/go/protocol/gregor1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kex2"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	gregor1 "github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func TestLoginLogoutLogin(t *testing.T) {

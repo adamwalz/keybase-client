@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 	"github.com/keybase/go-logging"
 	"github.com/keybase/go-ps"
 	"github.com/stretchr/testify/assert"

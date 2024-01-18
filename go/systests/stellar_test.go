@@ -10,12 +10,12 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/adamwalz/keybase-client/go/client"
-	"github.com/keybase/client/go/kbtest"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/protocol/stellar1"
-	"github.com/keybase/client/go/stellar"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/kbtest"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/stellar"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/stellarnet"
 	"github.com/stellar/go/build"
 	// nolint

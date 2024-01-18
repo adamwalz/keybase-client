@@ -6,7 +6,7 @@ package engine
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // findPaperKeys checks if the user has paper backup keys.  If he/she

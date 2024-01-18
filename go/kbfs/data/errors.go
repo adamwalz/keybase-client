@@ -7,7 +7,7 @@ package data
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/kbfs/kbfsblock"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsblock"
 )
 
 // NameExistsError indicates that the user tried to create an entry

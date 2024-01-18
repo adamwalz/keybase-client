@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/updater/keybase"
+	"github.com/adamwalz/keybase-client/go/updater/keybase"
 	"github.com/keybase/go-logging"
 	"github.com/stretchr/testify/assert"
 )

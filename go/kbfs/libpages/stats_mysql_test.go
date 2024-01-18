@@ -17,8 +17,8 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/keybase/client/go/kbfs/test/clocktest"
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/test/clocktest"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

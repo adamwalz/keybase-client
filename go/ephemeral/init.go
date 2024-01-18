@@ -1,7 +1,7 @@
 package ephemeral
 
 import (
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 // Creates a ephemeral key storage and installs it into G.

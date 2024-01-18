@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbcrypto"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-codec/codec"
 	context "golang.org/x/net/context"
 )

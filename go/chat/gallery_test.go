@@ -3,9 +3,9 @@ package chat
 import (
 	"testing"
 
-	"github.com/keybase/client/go/chat/attachments"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/attachments"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"github.com/stretchr/testify/require"
 )
 

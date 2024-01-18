@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/keybase/client/go/utils"
+	"github.com/adamwalz/keybase-client/go/utils"
 )
 
 var errKeybaseNotFound = errors.New("failed to find the keybase binary")

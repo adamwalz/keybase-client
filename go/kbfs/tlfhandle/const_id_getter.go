@@ -7,7 +7,7 @@ package tlfhandle
 import (
 	"context"
 
-	"github.com/keybase/client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
 )
 
 // ConstIDGetter is an IDGetter that always returns the same TLF ID.

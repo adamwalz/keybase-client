@@ -8,7 +8,7 @@ import (
 	"io"
 
 	"github.com/eapache/channels"
-	"github.com/keybase/client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
 )
 
 // blockRetrievalWorker processes blockRetrievalQueue requests

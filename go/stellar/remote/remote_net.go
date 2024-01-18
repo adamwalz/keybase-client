@@ -3,8 +3,8 @@ package remote
 import (
 	"context"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/stellar1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/stellar1"
 )
 
 // RemoteNet is the real implementation of Remoter that talks to servers.

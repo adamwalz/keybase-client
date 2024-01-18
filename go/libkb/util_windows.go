@@ -17,7 +17,7 @@ import (
 
 	"unicode/utf16"
 
-	"github.com/keybase/client/go/utils"
+	"github.com/adamwalz/keybase-client/go/utils"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 )

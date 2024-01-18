@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/command"
 )
 
 func (c config) destinationPath() string {

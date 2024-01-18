@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
-	"github.com/keybase/client/go/teams/hidden"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/teams/hidden"
 )
 
 // Things TeamLoader uses that are mocked out for tests.

@@ -36,7 +36,7 @@ RETRY_COUNT = 5
 def compile():
     # Compile dev keybase
     print("Compiling keybase...")
-    os.system("go install -tags devel github.com/keybase/client/go/keybase")
+    os.system("go install -tags devel github.com/adamwalz/keybase-client/go/keybase")
 
 def secure_random(n):
     return ''.join([SystemRandom().choice(string.ascii_lowercase) for _ in range(n)])

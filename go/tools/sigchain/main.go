@@ -10,9 +10,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 var uid = flag.String("uid", "", "uid of sigchain owner")

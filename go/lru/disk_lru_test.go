@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 	"github.com/keybase/clockwork"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"

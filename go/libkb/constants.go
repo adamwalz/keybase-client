@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/keybase/client/go/kbconst"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbconst"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/saltpack"
 )
 

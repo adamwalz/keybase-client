@@ -10,17 +10,17 @@ import (
 	"time"
 
 	"github.com/go-errors/errors"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 
-	"github.com/keybase/client/go/kbtime"
+	"github.com/adamwalz/keybase-client/go/kbtime"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/offline"
-	"github.com/keybase/client/go/protocol/chat1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/offline"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	"golang.org/x/net/context"
 )

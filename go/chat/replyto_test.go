@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	"github.com/stretchr/testify/require"
 )
 

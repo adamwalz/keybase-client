@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
 )
 
 // BenchmarkWriteSeq512 writes to a large file in 512 byte writes.

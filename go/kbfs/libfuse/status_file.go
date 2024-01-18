@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/kbfs/libfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libfs"
 )
 
 // NewNonTLFStatusFile returns a special read file that contains a

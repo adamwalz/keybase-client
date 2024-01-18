@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/kbtime"
+	"github.com/adamwalz/keybase-client/go/kbtime"
 )
 
 func HumanizeResetTime(t time.Time) string {

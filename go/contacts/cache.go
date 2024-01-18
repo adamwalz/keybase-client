@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/encrypteddb"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/encrypteddb"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // ContactCacheStore is used by CachedContactsProvider to store contact cache

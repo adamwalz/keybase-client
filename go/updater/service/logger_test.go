@@ -6,8 +6,8 @@ package main
 import (
 	"testing"
 
-	"github.com/keybase/client/go/updater/keybase"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater/keybase"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 	"github.com/stretchr/testify/require"
 )
 

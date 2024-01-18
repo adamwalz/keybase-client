@@ -8,13 +8,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/idutil"
-	idutiltest "github.com/keybase/client/go/kbfs/idutil/test"
-	"github.com/keybase/client/go/kbfs/kbfscodec"
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	"github.com/keybase/client/go/kbfs/kbfsmd"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/idutil"
+	idutiltest "github.com/adamwalz/keybase-client/go/kbfs/idutil/test"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfsmd"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/stretchr/testify/require"
 )
 

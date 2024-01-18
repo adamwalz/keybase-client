@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/stellar"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/stellar"
 	"github.com/keybase/stellarnet"
 	"github.com/stretchr/testify/require"
 )

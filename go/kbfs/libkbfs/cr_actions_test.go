@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/keybase/client/go/kbfs/data"
+	"github.com/adamwalz/keybase-client/go/kbfs/data"
 )
 
 func testPPS(s string) data.PathPartString {

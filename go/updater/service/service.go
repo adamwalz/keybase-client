@@ -4,8 +4,8 @@
 package main
 
 import (
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // Log is the logging interface for the service package

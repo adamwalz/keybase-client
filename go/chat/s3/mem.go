@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 
 	"golang.org/x/net/context"
 )

@@ -1,9 +1,9 @@
 package pvl
 
 import (
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/merklestore"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/merklestore"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // NewPvlSource creates a new source and installs it into G.

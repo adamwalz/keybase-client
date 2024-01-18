@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	stellar1 "github.com/keybase/client/go/protocol/stellar1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	stellar1 "github.com/adamwalz/keybase-client/go/protocol/stellar1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

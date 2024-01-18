@@ -3,7 +3,7 @@ package storage
 import (
 	"time"
 
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 const (

@@ -10,13 +10,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/keybase/client/go/chat/signencrypt"
-	"github.com/keybase/client/go/kbtest"
-	"github.com/keybase/client/go/kvstore"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/msgpack"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/chat/signencrypt"
+	"github.com/adamwalz/keybase-client/go/kbtest"
+	"github.com/adamwalz/keybase-client/go/kvstore"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/stretchr/testify/require"
 )
 

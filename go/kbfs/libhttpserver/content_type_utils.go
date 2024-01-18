@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 type contentTypeOverridingResponseWriter struct {

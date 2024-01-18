@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keybase/client/go/kbfs/tlf"
-	"github.com/keybase/client/go/kbfs/tlfhandle"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlf"
+	"github.com/adamwalz/keybase-client/go/kbfs/tlfhandle"
 )
 
 // Path represents the full KBFS path to a particular location, so

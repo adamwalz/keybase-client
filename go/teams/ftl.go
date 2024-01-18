@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
-	"github.com/keybase/client/go/teams/hidden"
-	storage "github.com/keybase/client/go/teams/storage"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/teams/hidden"
+	storage "github.com/adamwalz/keybase-client/go/teams/storage"
 )
 
 //

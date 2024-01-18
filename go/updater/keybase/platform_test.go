@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/keybase/client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater/command"
 )
 
 type testConfigPlatform struct {

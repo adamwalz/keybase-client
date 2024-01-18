@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/keybase/client/go/kbfs/kbfscodec"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscodec"
 )
 
 // BlockSplitterSimple implements the BlockSplitter interface by using

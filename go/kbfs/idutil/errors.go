@@ -7,8 +7,8 @@ package idutil
 import (
 	"fmt"
 
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/protocol/keybase1"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // NoSigChainError means that a user we were trying to identify does

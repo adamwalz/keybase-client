@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"sort"
 
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 )
 
 type dummyContextFactory struct{}

@@ -10,11 +10,11 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/keybase/client/go/libkb"
-	storage "github.com/keybase/client/go/teams/storage"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	storage "github.com/adamwalz/keybase-client/go/teams/storage"
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func ShouldRunBoxAudit(mctx libkb.MetaContext) bool {

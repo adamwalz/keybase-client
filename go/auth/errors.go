@@ -3,8 +3,8 @@ package auth
 import (
 	"errors"
 	"fmt"
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // ErrShutdown is raised when an operation is pending but the CA is shutting down

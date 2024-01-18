@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	chat1 "github.com/keybase/client/go/protocol/chat1"
+	chat1 "github.com/adamwalz/keybase-client/go/protocol/chat1"
 	clockwork "github.com/keybase/clockwork"
 )
 

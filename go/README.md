@@ -43,7 +43,7 @@ export PATH="$PATH:$GOPATH/bin"  # Ditto.
 # See https://github.com/golang/go/issues/30354 for more details.
 git clone https://github.com/keybase/client.git
 cd client/go
-go install -tags production github.com/keybase/client/go/keybase
+go install -tags production github.com/adamwalz/keybase-client/go/keybase
 
 # If you did the PATH bit above, this should just work.
 keybase
@@ -81,7 +81,7 @@ keybase --standalone id max
 ### Run tests
 
 ```bash
-cd $GOPATH/src/github.com/keybase/client/go/test
+cd $GOPATH/src/github.com/adamwalz/keybase-client/go/test
 ./run_tests.sh
 ```
 

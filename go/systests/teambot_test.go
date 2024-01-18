@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/gregor1"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teambot"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teambot"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/clockwork"
 	"github.com/stretchr/testify/require"
 )

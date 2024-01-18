@@ -4,10 +4,10 @@ import (
 	"os"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 	isatty "github.com/mattn/go-isatty"
 	context "golang.org/x/net/context"
 )

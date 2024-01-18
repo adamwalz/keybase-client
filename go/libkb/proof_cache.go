@@ -9,7 +9,7 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

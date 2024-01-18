@@ -11,8 +11,8 @@ import (
 
 	"github.com/keybase/go-crypto/ed25519"
 
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	clockwork "github.com/keybase/clockwork"
 	jsonw "github.com/keybase/go-jsonw"
 	require "github.com/stretchr/testify/require"

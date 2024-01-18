@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/keybase/client/go/kbfs/env"
-	"github.com/keybase/client/go/kbfs/libkbfs"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/env"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 var version = flag.Bool("version", false, "Print version")

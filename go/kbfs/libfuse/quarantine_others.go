@@ -8,7 +8,7 @@
 package libfuse
 
 import (
-	"github.com/keybase/client/go/kbfs/libkbfs"
+	"github.com/adamwalz/keybase-client/go/kbfs/libkbfs"
 )
 
 // NewQuarantineXattrHandler returns a handler that doesn't handle Xattr calls

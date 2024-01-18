@@ -7,10 +7,10 @@
 package externalstest
 
 import (
-	"github.com/keybase/client/go/externals"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/pvl"
-	"github.com/keybase/client/go/uidmap"
+	"github.com/adamwalz/keybase-client/go/externals"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/pvl"
+	"github.com/adamwalz/keybase-client/go/uidmap"
 )
 
 // SetupTest ignores the third argument.

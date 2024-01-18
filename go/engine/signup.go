@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	triplesec "github.com/keybase/go-triplesec"
 )
 

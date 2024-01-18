@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/kbfs/test/clocktest"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/kbfs/test/clocktest"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

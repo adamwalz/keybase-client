@@ -3,7 +3,7 @@ package msgchecker
 import (
 	"fmt"
 
-	"github.com/keybase/client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
 )
 
 type MessageBoxedLengthExceedingError struct {

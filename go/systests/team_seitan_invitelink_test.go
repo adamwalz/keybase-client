@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/keybase/clockwork"
 	"github.com/stretchr/testify/require"
 	context "golang.org/x/net/context"

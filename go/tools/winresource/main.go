@@ -25,7 +25,7 @@ import (
 	"github.com/akavel/rsrc/binutil"
 	"github.com/akavel/rsrc/coff"
 	"github.com/josephspurrier/goversioninfo"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 func getBuildName() string {

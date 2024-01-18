@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/keybase/client/go/kbconst"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/logger"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbconst"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/logger"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 )
 
@@ -260,7 +260,7 @@ func (c *KBFSContext) newTransportFromSocket(s net.Conn) rpc.Transporter {
 }
 
 // GetKBFSSocket dials the socket configured in `c.kbfsSocket`.
-// Adapted from github.com/keybase/client/go/libkb.GlobalContext.GetSocket.
+// Adapted from github.com/adamwalz/keybase-client/go/libkb.GlobalContext.GetSocket.
 func (c *KBFSContext) GetKBFSSocket(clearError bool) (
 	net.Conn, rpc.Transporter, bool, error) {
 	var err error

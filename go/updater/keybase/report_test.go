@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

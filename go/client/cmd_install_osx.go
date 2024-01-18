@@ -14,12 +14,12 @@ import (
 	"time"
 
 	"github.com/keybase/cli"
-	"github.com/keybase/client/go/install"
-	"github.com/keybase/client/go/install/libnativeinstaller"
-	"github.com/keybase/client/go/launchd"
-	"github.com/keybase/client/go/libcmdline"
-	"github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/install"
+	"github.com/adamwalz/keybase-client/go/install/libnativeinstaller"
+	"github.com/adamwalz/keybase-client/go/launchd"
+	"github.com/adamwalz/keybase-client/go/libcmdline"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func NewCmdInstall(cl *libcmdline.CommandLine, g *libkb.GlobalContext) cli.Command {

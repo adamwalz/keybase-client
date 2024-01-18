@@ -5,8 +5,8 @@ import (
 	"io"
 
 	"github.com/buger/jsonparser"
-	"github.com/keybase/client/go/jsonparserw"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/jsonparserw"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 func LoadUPAKLite(arg LoadUserArg) (ret *keybase1.UPKLiteV1AllIncarnations, err error) {

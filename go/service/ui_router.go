@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	identify3 "github.com/keybase/client/go/identify3"
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	identify3 "github.com/adamwalz/keybase-client/go/identify3"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	"github.com/keybase/go-framed-msgpack-rpc/rpc"
 	context "golang.org/x/net/context"
 )

@@ -7,10 +7,10 @@ package idutil
 import (
 	"context"
 
-	"github.com/keybase/client/go/kbfs/kbfscrypto"
-	kbname "github.com/keybase/client/go/kbun"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbfs/kbfscrypto"
+	kbname "github.com/adamwalz/keybase-client/go/kbun"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // GetCurrentSessionIfPossible returns the current username and UID

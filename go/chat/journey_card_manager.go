@@ -11,15 +11,15 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/storage"
-	"github.com/keybase/client/go/chat/types"
-	"github.com/keybase/client/go/chat/utils"
-	"github.com/keybase/client/go/encrypteddb"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/storage"
+	"github.com/adamwalz/keybase-client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/chat/utils"
+	"github.com/adamwalz/keybase-client/go/encrypteddb"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 const cardSinceJoinedCap = time.Hour * 24 * 7 * 4

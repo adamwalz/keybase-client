@@ -1,7 +1,7 @@
 package blindtree
 
 import (
-	"github.com/keybase/client/go/merkletree2"
+	"github.com/adamwalz/keybase-client/go/merkletree2"
 )
 
 // Blind tree defaults. Should not be changed without updating the clients first!

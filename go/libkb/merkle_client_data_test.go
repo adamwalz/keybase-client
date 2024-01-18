@@ -10,7 +10,7 @@
 
 package libkb
 
-import "github.com/keybase/client/go/protocol/keybase1"
+import "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
 var merkleSkipTestVectors = []struct {
 	name string

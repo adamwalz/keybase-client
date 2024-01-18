@@ -3,7 +3,7 @@ package progress
 import (
 	"time"
 
-	"github.com/keybase/client/go/chat/types"
+	"github.com/adamwalz/keybase-client/go/chat/types"
 )
 
 // desktop requested 1 update per second:

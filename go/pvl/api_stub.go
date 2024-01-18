@@ -9,7 +9,7 @@ package pvl
 import (
 	"fmt"
 
-	libkb "github.com/keybase/client/go/libkb"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
 )
 
 type stubAPIEngine struct {

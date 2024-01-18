@@ -1,8 +1,8 @@
 package systests
 
 import (
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

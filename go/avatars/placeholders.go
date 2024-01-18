@@ -1,7 +1,7 @@
 package avatars
 
 import (
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 var userPlaceholders = map[keybase1.AvatarFormat]string{

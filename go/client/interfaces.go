@@ -3,7 +3,7 @@
 
 package client
 
-import "github.com/keybase/client/go/protocol/keybase1"
+import "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 
 type Canceler interface {
 	Cancel() error

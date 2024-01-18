@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/keybase/client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/gregor"
 	"github.com/keybase/go-codec/codec"
 )
 

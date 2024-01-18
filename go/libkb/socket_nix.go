@@ -16,7 +16,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 )
 
 // Though I've never seen this come up in production, it definitely comes up

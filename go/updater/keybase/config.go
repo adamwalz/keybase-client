@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keybase/client/go/updater"
-	"github.com/keybase/client/go/updater/command"
-	"github.com/keybase/client/go/updater/util"
+	"github.com/adamwalz/keybase-client/go/updater"
+	"github.com/adamwalz/keybase-client/go/updater/command"
+	"github.com/adamwalz/keybase-client/go/updater/util"
 )
 
 // Config is Keybase specific configuration for the updater

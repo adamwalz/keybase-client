@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/msgpack"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	context "golang.org/x/net/context"
 )
 

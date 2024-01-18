@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/teams/opensearch"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/teams/opensearch"
 )
 
 const (

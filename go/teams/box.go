@@ -3,9 +3,9 @@ package teams
 import (
 	"encoding/base64"
 
-	"github.com/keybase/client/go/kbcrypto"
-	"github.com/keybase/client/go/libkb"
-	"github.com/keybase/client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/kbcrypto"
+	"github.com/adamwalz/keybase-client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
 )
 
 // TeamBox comes from api server team/get endpoint.

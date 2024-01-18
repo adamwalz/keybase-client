@@ -1,8 +1,8 @@
 package blindtree
 
 import (
-	"github.com/keybase/client/go/protocol/keybase1"
-	"github.com/keybase/client/go/sig3"
+	"github.com/adamwalz/keybase-client/go/protocol/keybase1"
+	"github.com/adamwalz/keybase-client/go/sig3"
 	"github.com/keybase/go-codec/codec"
 )
 

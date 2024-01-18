@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/keybase/client/go/chat/globals"
-	"github.com/keybase/client/go/chat/unfurl"
-	"github.com/keybase/client/go/libkb"
+	"github.com/adamwalz/keybase-client/go/chat/globals"
+	"github.com/adamwalz/keybase-client/go/chat/unfurl"
+	"github.com/adamwalz/keybase-client/go/libkb"
 )
 
 func main() {

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/client/go/logger"
+	"github.com/adamwalz/keybase-client/go/logger"
 	"github.com/keybase/clockwork"
 
-	"github.com/keybase/client/go/gregor"
-	"github.com/keybase/client/go/protocol/chat1"
-	"github.com/keybase/client/go/protocol/gregor1"
+	"github.com/adamwalz/keybase-client/go/gregor"
+	"github.com/adamwalz/keybase-client/go/protocol/chat1"
+	"github.com/adamwalz/keybase-client/go/protocol/gregor1"
 	"golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"
 )

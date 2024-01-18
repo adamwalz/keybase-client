@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	gregor "github.com/keybase/client/go/gregor"
-	libkb "github.com/keybase/client/go/libkb"
-	keybase1 "github.com/keybase/client/go/protocol/keybase1"
+	gregor "github.com/adamwalz/keybase-client/go/gregor"
+	libkb "github.com/adamwalz/keybase-client/go/libkb"
+	keybase1 "github.com/adamwalz/keybase-client/go/protocol/keybase1"
 	jsonw "github.com/keybase/go-jsonw"
 )
 

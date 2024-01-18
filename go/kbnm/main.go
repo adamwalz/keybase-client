@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/keybase/client/go/kbnm/installer"
+	"github.com/adamwalz/keybase-client/go/kbnm/installer"
 	"github.com/qrtz/nativemessaging"
 )
 

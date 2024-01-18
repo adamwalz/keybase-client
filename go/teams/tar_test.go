@@ -3,7 +3,7 @@ package teams
 import (
 	"testing"
 
-	"github.com/keybase/client/go/kbtest"
+	"github.com/adamwalz/keybase-client/go/kbtest"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

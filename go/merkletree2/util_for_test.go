@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/keybase/client/go/msgpack"
+	"github.com/adamwalz/keybase-client/go/msgpack"
 
 	"github.com/stretchr/testify/require"
 )
